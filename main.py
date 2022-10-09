@@ -11,7 +11,7 @@ import re
 import schemas
 from database import Base, engine, get_db
 
-Base.metadata.create_all(bind=engine)  # creates all database tables
+# Base.metadata.create_all(bind=engine)  # creates all database tables
 app = FastAPI()
 
 
